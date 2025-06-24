@@ -1,9 +1,13 @@
 version: 0.0
 os: linux
+
 files:
-  - source: /
+  - source: app.py
     destination: /home/ec2-user/flask-app
-    overwrite: true
+  - source: requirements.txt
+    destination: /home/ec2-user/flask-app
+  - source: scripts/
+    destination: /home/ec2-user/flask-app/scripts
 
 hooks:
   BeforeInstall:
