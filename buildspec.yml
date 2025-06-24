@@ -15,6 +15,7 @@ phases:
 artifacts:
   files:
     - app.zip
+    - requirements.txt
     - buildspec-test.yml       # ✅ include this explicitly
     - test/test_app.py         # optional: include tests if needed
   discard-paths: yes
