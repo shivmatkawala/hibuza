@@ -16,6 +16,6 @@ artifacts:
   files:
     - app.zip
     - requirements.txt
-    - buildspec-test.yml       # ✅ include this explicitly
-    - test         # optional: include tests if needed
-  discard-paths: yes
+    - buildspec-test.yml
+    - test/**
+  discard-paths: no
