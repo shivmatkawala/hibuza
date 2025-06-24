@@ -9,10 +9,4 @@ phases:
 
   build:
     commands:
-      - echo "Zipping app..."
-      - zip -r app.zip app.py requirements.txt
-
-artifacts:
-  files:
-    - app.zip
-  discard-paths: yes
+      - pytest test/
