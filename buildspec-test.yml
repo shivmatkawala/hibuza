@@ -9,4 +9,7 @@ phases:
 
   build:
     commands:
+      - echo "Listing current directory contents..."
+      - ls -R
       - pytest test/
+
