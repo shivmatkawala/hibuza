@@ -17,6 +17,7 @@ phases:
 artifacts:
   files:
     - app.py
+    - appspec.yml
     - requirements.txt
     - buildspec-test.yml
     - test/**
