@@ -21,5 +21,6 @@ artifacts:
     - requirements.txt
     - buildspec-test.yml
     - test/**
+    - scripts/**
     - app.zip
   discard-paths: no
